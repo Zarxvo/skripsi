@@ -1,0 +1,32 @@
+
+aside{
+    background-color: #9DB2BF;
+    color: black;
+}
+
+ul li{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-block: 0.25rem;
+    transition: width 0.2s linear;
+    overflow: hidden;
+}
+
+ul li.active, ul li:hover{
+    background-color: #DDE6ED;
+    color: #DDE6ED;
+}
+ul li.active a,
+ul li:hover a {
+    color: #27374D;
+    font-weight: bold;
+}
+p{
+    color: #27374D;
+}
+
+i{
+    color: #27374D;
+}
